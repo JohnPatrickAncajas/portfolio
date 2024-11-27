@@ -1,6 +1,6 @@
 export default function Home() {
   return (
-    <div className="min-h-screen flex flex-col">
+    <div className="min-h-screen flex flex-col overflow-hidden">
       <nav className="fixed top-0 left-0 w-full bg-transparent backdrop-blur-md z-10 p-4">
         <div className="container mx-auto flex justify-between items-center">
           <ul className="flex gap-4 items-end ml-auto">
