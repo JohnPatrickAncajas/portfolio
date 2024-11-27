@@ -11,6 +11,16 @@ module.exports = {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      keyframes: {
+        train: {
+          "0%": { transform: "translateX(-100vw)" },
+          "50%": { transform: "translateX(50vw)" },
+          "100%": { transform: "translateX(100vw)" },
+        },
+      },
+      animation: {
+        train: "train 10s linear infinite",
+      },
     },
   },
   plugins: [],
