@@ -1,7 +1,7 @@
 export default function Home() {
   return (
     <div className="min-h-screen flex flex-col overflow-hidden">
-      <nav className="fixed top-0 left-0 w-full bg-transparent backdrop-blur-md z-10 p-4">
+      <nav className="left-0 w-full bg-transparent backdrop-blur-md z-10 p-4">
         <div className="container mx-auto flex justify-between items-center">
           <ul className="flex gap-4 items-end ml-auto">
             <li className="nav-link">About me</li>
@@ -11,12 +11,12 @@ export default function Home() {
         </div>
       </nav>
 
-      <main className="flex-grow relative bg-gradient-to-b from-gray-900 via-gray-300 to-gray-700">
-        <div className="absolute top-4 right-4 bg-gray-800 text-white p-4 rounded shadow-lg">
+      <main className="flex-grow bg-gradient-to-b from-gray-900 via-gray-300 to-gray-700 p-4">
+        <div className="bg-gray-800 text-white p-4 rounded shadow-lg">
           Hello!
         </div>
 
-        <div className="absolute bottom-10 w-full flex justify-start gap-2 animate-train">
+        <div className=" w-full flex justify-start gap-2 animate-train p-4">
           <div className="bg-gray-600 w-40 h-20 rounded flex items-center justify-center text-white">
             Wagon 1
           </div>
