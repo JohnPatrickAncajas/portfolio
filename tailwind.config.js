@@ -13,15 +13,15 @@ module.exports = {
       },
       keyframes: {
         train: {
-          "0%": { transform: "translateX(-31rem)" },
-          "12.5%": { transform: "translateX(-31rem)" },
+          "0%": { transform: "translateX(-32rem)" },
+          "12.5%": { transform: "translateX(-32rem)" },
           "25%": { transform: "translateX(calc(40vw - 15.5rem))" },
           "37.5%": { transform: "translateX(calc(50vw - 15.5rem))" },
           "50%": { transform: "translateX(calc(50vw - 15.5rem))" },
           "62.5": { transform: "translateX(calc(50vw - 15.5rem))" },
           "75%": { transform: "translateX(60vw)" },
-          "87.5%": { transform: "translateX(calc(100vw + 31rem))" },
-          "100%": { transform: "translateX(calc(100vw + 31rem))" },
+          "87.5%": { transform: "translateX(calc(100vw + 32rem))" },
+          "100%": { transform: "translateX(calc(100vw + 32rem))" },
         },
       },
       animation: {
