@@ -1,3 +1,6 @@
+import { FaHtml5, FaCss3Alt, FaJs, FaReact, FaBootstrap } from "react-icons/fa";
+import { TbBrandNextjs, TbBrandTailwind } from "react-icons/tb";
+
 export default function Home() {
   return (
     <div className="min-h-screen flex flex-col overflow-hidden font-inter bg-gray-900 text-gray-100">
@@ -12,16 +15,19 @@ export default function Home() {
       </nav>
 
       <main className="flex-grow p-6 container mx-auto">
-        <div className="flex flex-col md:flex-row items-center md:items-center justify-center md:justify-start bg-gray-850 p-10 rounded-lg shadow-lg border border-gray-700 transition-all duration-300">
+        <div
+          className="relative flex flex-col md:flex-row items-center md:items-center justify-center md:justify-start bg-gradient-to-r from-gray-850 via-gray-800 to-gray-850 p-10 rounded-lg shadow-lg border border-gray-700 animate-fadeIn"
+        >
           <img
             src="/images/PatrickAncajasProfile.jpg"
             alt="Profile"
-            className="w-48 h-48 rounded-lg object-cover shadow-md transform hover:scale-105 transition-transform duration-300"
+            className="w-48 h-48 rounded-lg object-cover shadow-md ring-4 ring-blue-500/30 transition-transform duration-300 hover:scale-105"
           />
-          <div className="mt-6 md:mt-0 md:ml-8 flex flex-col items-center md:items-start text-center md:text-left">
-            <h1 className="text-5xl font-bold text-blue-400">Patrick Ancajas</h1>
-            <p className="text-gray-300 mt-4 text-lg">
-              Aspiring developer passionate about modern web technologies.
+
+          <div className="mt-6 md:mt-0 md:ml-10 flex flex-col items-center md:items-start text-center md:text-left">
+            <h1 className="text-5xl font-bold text-blue-400">Hey, I'm Patrick!</h1>
+            <p className="text-gray-300 mt-4 text-xl">
+              Building intuitive and efficient web applications.
             </p>
           </div>
         </div>
