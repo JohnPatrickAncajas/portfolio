@@ -12,8 +12,12 @@ export default function Home() {
       </nav>
 
       <main className="flex-grow p-6 container mx-auto">
-        <div className="bg-gray-800 text-white p-6 rounded-lg shadow-lg text-lg font-semibold">
-          Welcome to My Portfolio
+        <div className="flex items-center gap-8 bg-gray-850 p-8 rounded-lg shadow-lg border border-gray-700">
+          <img src="/images/PatrickAncajasProfile.jpg" alt="Profile" className="w-48 h-48 rounded-lg object-cover shadow-md" />
+          <div>
+            <h1 className="text-4xl font-bold text-blue-400">Patrick Ancajas</h1>
+            <p className="text-gray-300 mt-4">An aspiring developer eager to learn and explore modern web development.</p>
+          </div>
         </div>
 
         <div className="w-full flex justify-start gap-4 animate-train p-6">
@@ -45,7 +49,7 @@ export default function Home() {
       </main>
 
       <footer className="bg-gray-950 text-gray-400 text-center p-4 border-t border-gray-700">
-        © 2025 Your Name. All rights reserved.
+        © 2025 Patrick Ancajas. All rights reserved.
       </footer>
     </div>
   );
