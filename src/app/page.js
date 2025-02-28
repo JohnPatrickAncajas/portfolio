@@ -12,11 +12,18 @@ export default function Home() {
       </nav>
 
       <main className="flex-grow p-6 container mx-auto">
-        <div className="flex items-center gap-8 bg-gray-850 p-8 rounded-lg shadow-lg border border-gray-700">
-          <img src="/images/PatrickAncajasProfile.jpg" alt="Profile" className="w-48 h-48 rounded-lg object-cover shadow-md" />
-          <div>
+        {/* Left-Aligned but Centered Vertically */}
+        <div className="flex flex-col md:flex-row items-center md:items-center bg-gray-850 p-8 rounded-lg shadow-lg border border-gray-700">
+          <img
+            src="/images/PatrickAncajasProfile.jpg"
+            alt="Profile"
+            className="w-48 h-48 rounded-lg object-cover shadow-md"
+          />
+          <div className="md:ml-6 flex flex-col justify-center">
             <h1 className="text-4xl font-bold text-blue-400">Patrick Ancajas</h1>
-            <p className="text-gray-300 mt-4">An aspiring developer eager to learn and explore modern web development.</p>
+            <p className="text-gray-300 mt-4">
+              An aspiring developer eager to learn and explore modern web development.
+            </p>
           </div>
         </div>
 
@@ -35,15 +42,17 @@ export default function Home() {
         <div className="flex flex-col gap-12 p-8 mt-32">
           <div className="body-section bg-gray-850 p-8 rounded-lg shadow-lg border border-gray-700">
             <h2 className="text-xl font-semibold text-blue-400 mb-4">About Me</h2>
-            <p className="text-gray-300"> Dolor consequat eu Lorem laborum ea dolor ad ullamco voluptate.</p>
+            <p className="text-gray-300">Dolor consequat eu Lorem laborum ea dolor ad ullamco voluptate.</p>
           </div>
           <div className="body-section bg-gray-850 p-8 rounded-lg shadow-lg border border-gray-700">
             <h2 className="text-xl font-semibold text-blue-400 mb-4">Projects</h2>
-            <p className="text-gray-300"> Laboris commodo sint duis est magna ex ullamco irure sit esse tempor laboris.</p>
+            <p className="text-gray-300">
+              Laboris commodo sint duis est magna ex ullamco irure sit esse tempor laboris.
+            </p>
           </div>
           <div className="body-section bg-gray-850 p-8 rounded-lg shadow-lg border border-gray-700">
             <h2 className="text-xl font-semibold text-blue-400 mb-4">Skills</h2>
-            <p className="text-gray-300"> Amet aute sunt irure do commodo irure dolore laboris anim ut.</p>
+            <p className="text-gray-300">Amet aute sunt irure do commodo irure dolore laboris anim ut.</p>
           </div>
         </div>
       </main>
