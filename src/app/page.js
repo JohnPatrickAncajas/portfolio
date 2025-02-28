@@ -12,17 +12,16 @@ export default function Home() {
       </nav>
 
       <main className="flex-grow p-6 container mx-auto">
-        {/* Left-Aligned but Centered Vertically */}
-        <div className="flex flex-col md:flex-row items-center md:items-center bg-gray-850 p-8 rounded-lg shadow-lg border border-gray-700">
+        <div className="flex flex-col md:flex-row items-center md:items-center justify-center md:justify-start bg-gray-850 p-10 rounded-lg shadow-lg border border-gray-700 transition-all duration-300">
           <img
             src="/images/PatrickAncajasProfile.jpg"
             alt="Profile"
-            className="w-48 h-48 rounded-lg object-cover shadow-md"
+            className="w-48 h-48 rounded-lg object-cover shadow-md transform hover:scale-105 transition-transform duration-300"
           />
-          <div className="md:ml-6 flex flex-col justify-center">
-            <h1 className="text-4xl font-bold text-blue-400">Patrick Ancajas</h1>
-            <p className="text-gray-300 mt-4">
-              An aspiring developer eager to learn and explore modern web development.
+          <div className="mt-6 md:mt-0 md:ml-8 flex flex-col items-center md:items-start text-center md:text-left">
+            <h1 className="text-5xl font-bold text-blue-400">Patrick Ancajas</h1>
+            <p className="text-gray-300 mt-4 text-lg">
+              Aspiring developer passionate about modern web technologies.
             </p>
           </div>
         </div>
@@ -40,25 +39,57 @@ export default function Home() {
         </div>
 
         <div className="flex flex-col gap-12 p-8 mt-32">
-          <div className="body-section bg-gray-850 p-8 rounded-lg shadow-lg border border-gray-700">
+          <div id="about" className="body-section bg-gray-850 p-8 rounded-lg shadow-lg border border-gray-700">
             <h2 className="text-xl font-semibold text-blue-400 mb-4">About Me</h2>
-            <p className="text-gray-300">Dolor consequat eu Lorem laborum ea dolor ad ullamco voluptate.</p>
+            <p className="text-gray-300">
+              Dolor consequat eu Lorem laborum ea dolor ad ullamco voluptate.
+            </p>
           </div>
-          <div className="body-section bg-gray-850 p-8 rounded-lg shadow-lg border border-gray-700">
+          <div id="projects" className="body-section bg-gray-850 p-8 rounded-lg shadow-lg border border-gray-700">
             <h2 className="text-xl font-semibold text-blue-400 mb-4">Projects</h2>
             <p className="text-gray-300">
               Laboris commodo sint duis est magna ex ullamco irure sit esse tempor laboris.
             </p>
           </div>
-          <div className="body-section bg-gray-850 p-8 rounded-lg shadow-lg border border-gray-700">
+          <div id="skills" className="body-section bg-gray-850 p-8 rounded-lg shadow-lg border border-gray-700">
             <h2 className="text-xl font-semibold text-blue-400 mb-4">Skills</h2>
-            <p className="text-gray-300">Amet aute sunt irure do commodo irure dolore laboris anim ut.</p>
+            <p className="text-gray-300">
+              Amet aute sunt irure do commodo irure dolore laboris anim ut.
+            </p>
           </div>
         </div>
       </main>
 
-      <footer className="bg-gray-950 text-gray-400 text-center p-4 border-t border-gray-700">
-        © 2025 Patrick Ancajas. All rights reserved.
+      <footer className="bg-gray-950 text-gray-400 text-center p-6 border-t border-gray-700">
+        <ul className="flex justify-center gap-4">
+          <li>
+            <a
+              href="https://www.facebook.com/profile.php?id=100082552025420&mibextid=2JQ9oc"
+              className="hover:text-blue-400 transition-colors"
+            >
+              Facebook
+            </a>
+          </li>
+          <li>|</li>
+          <li>
+            <a
+              href="https://github.com/JohnPatrickAncajas"
+              className="hover:text-blue-400 transition-colors"
+            >
+              Github
+            </a>
+          </li>
+          <li>|</li>
+          <li>
+            <a
+              href="https://www.linkedin.com/in/john-patrick-ancajas-2b808828a"
+              className="hover:text-blue-400 transition-colors"
+            >
+              LinkedIn
+            </a>
+          </li>
+        </ul>
+        <p className="mt-2">© 2025 Patrick Ancajas. All rights reserved.</p>
       </footer>
     </div>
   );
