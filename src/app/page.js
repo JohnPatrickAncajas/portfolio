@@ -5,19 +5,18 @@ import Image from "next/image";
 export default function Home() {
   return (
     <div className="min-h-screen flex flex-col overflow-hidden font-inter text-gray-100">
-      <nav className="w-full bg-gray-950 backdrop-blur-md z-10 p-4 border-b border-gray-700">
+      <nav className="w-full bg-gray-950 bg-opacity-50 backdrop-blur-md z-10 p-4 border-b border-gray-700 fixed top-0 left-0">
         <div className="container mx-auto flex justify-between items-center">
           <ul className="flex gap-6 items-end ml-auto text-gray-300">
-            <li className="hover:text-blue-400 transition-colors cursor-pointer">About Me</li>
-            <li className="hover:text-blue-400 transition-colors cursor-pointer">Projects</li>
-            <li className="hover:text-blue-400 transition-colors cursor-pointer">Contact</li>
+            <li className="hover:text-blue-400 transition-all cursor-pointer">About Me</li>
+            <li className="hover:text-blue-400 transition-all cursor-pointer">Projects</li>
+            <li className="hover:text-blue-400 transition-all cursor-pointer">Contact</li>
           </ul>
         </div>
       </nav>
 
-      <main className="flex-grow p-6 container mx-auto">
-      <div className="relative flex flex-col md:flex-row items-center justify-center bg-gradient-to-r from-gray-850 via-gray-800 to-gray-850 p-10 rounded-lg shadow-lg border border-gray-700 animate-fadeIn backdrop-blur-md bg-opacity-30">
-
+      <main className="flex-grow p-6 mt-12 container mx-auto">
+        <div className="relative flex flex-col md:flex-row items-center justify-center bg-gradient-to-r from-gray-850 via-gray-800 to-gray-850 p-10 rounded-lg shadow-lg border border-gray-700 animate-fadeIn backdrop-blur-md bg-opacity-30">
           <Image
             src="/images/PatrickAncajasProfile.jpg"
             alt="Profile"
