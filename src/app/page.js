@@ -1,5 +1,6 @@
 import { FaHtml5, FaCss3Alt, FaJs, FaReact, FaBootstrap, FaGithub, FaTwitter, FaLinkedin} from "react-icons/fa";
 import { TbBrandNextjs, TbBrandTailwind } from "react-icons/tb";
+import Image from "next/image";
 
 export default function Home() {
   return (
@@ -16,13 +17,15 @@ export default function Home() {
 
       <main className="flex-grow p-6 container mx-auto">
         <div className="relative flex flex-col md:flex-row items-center justify-center bg-gradient-to-r from-gray-850 via-gray-800 to-gray-850 p-10 rounded-lg shadow-lg border border-gray-700 animate-fadeIn">
-          <img
+          <Image
             src="/images/PatrickAncajasProfile.jpg"
             alt="Profile"
-            className="w-48 h-48 rounded-lg object-cover shadow-md ring-4 ring-blue-500/30 transition-transform duration-300 hover:scale-105"
+            width={192}
+            height={192}
+            className="rounded-lg object-cover shadow-md ring-4 ring-blue-500/30 transition-transform duration-300 hover:scale-105"
           />
           <div className="mt-6 md:mt-0 md:ml-10 flex flex-col items-center md:items-start text-center md:text-left">
-            <h1 className="text-5xl font-bold text-blue-400">Hey, I'm Patrick!</h1>
+            <h1 className="text-5xl font-bold text-blue-400">Hey, I&apos;m Patrick!</h1>
             <p className="text-gray-300 mt-4 text-xl">Aspiring Full-stack developer passionate about building friendly and efficient web applications.</p>
           </div>
         </div>
