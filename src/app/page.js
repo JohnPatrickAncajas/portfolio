@@ -46,21 +46,35 @@ export default function Home() {
         </div>
 
         <section id="about" className="bg-gray-850 p-8 rounded-lg shadow-lg border border-gray-700 mt-12">
-          <h2 className="text-xl font-semibold text-blue-400 mb-4">About Me</h2>
-          <p className="text-gray-300">I am a dedicated developer specializing in modern web technologies, focusing on user-friendly designs and scalable solutions. With a strong foundation in front-end and back-end development, I love bringing ideas to life through code.</p>
-          <div className="mt-6">
-            <h3 className="text-lg font-semibold text-blue-400 mb-2">Tech Stack</h3>
-            <div className="flex flex-wrap gap-3">
-              <span className="flex items-center gap-2 bg-orange-600 text-white px-3 py-1 rounded-lg shadow-md"><FaHtml5 className="text-xl" /> HTML</span>
-              <span className="flex items-center gap-2 bg-blue-600 text-white px-3 py-1 rounded-lg shadow-md"><FaCss3Alt className="text-xl" /> CSS</span>
-              <span className="flex items-center gap-2 bg-yellow-500 text-black px-3 py-1 rounded-lg shadow-md"><FaJs className="text-xl" /> JavaScript</span>
-              <span className="flex items-center gap-2 bg-blue-500 text-white px-3 py-1 rounded-lg shadow-md"><FaReact className="text-xl" /> React</span>
-              <span className="flex items-center gap-2 bg-black text-white px-3 py-1 rounded-lg shadow-md"><TbBrandNextjs className="text-xl" /> Next.js</span>
-              <span className="flex items-center gap-2 bg-purple-600 text-white px-3 py-1 rounded-lg shadow-md"><FaBootstrap className="text-xl" /> Bootstrap</span>
-              <span className="flex items-center gap-2 bg-teal-500 text-white px-3 py-1 rounded-lg shadow-md"><TbBrandTailwind className="text-xl" /> Tailwind</span>
-            </div>
-          </div>
-        </section>
+  <h2 className="text-xl font-semibold text-blue-400 mb-4">About Me</h2>
+  <p className="text-gray-300">I am a dedicated developer specializing in modern web technologies, focusing on user-friendly designs and scalable solutions. With a strong foundation in front-end and back-end development, I love bringing ideas to life through code.</p>
+  <div className="mt-6">
+    <h3 className="text-lg font-semibold text-blue-400 mb-2">Tech Stack</h3>
+    <div className="flex flex-wrap gap-3">
+      <span className="flex items-center gap-2 bg-orange-600 text-white px-3 py-1 rounded-lg hover:shadow-[0_0_15px_rgba(255,165,0,1)] transition-all duration-300">
+        <FaHtml5 className="text-xl" /> HTML
+      </span>
+      <span className="flex items-center gap-2 bg-blue-600 text-white px-3 py-1 rounded-lg hover:shadow-[0_0_15px_rgba(0,119,255,1)] transition-all duration-300">
+        <FaCss3Alt className="text-xl" /> CSS
+      </span>
+      <span className="flex items-center gap-2 bg-yellow-500 text-black px-3 py-1 rounded-lg hover:shadow-[0_0_15px_rgba(255,223,0,1)] transition-all duration-300">
+        <FaJs className="text-xl" /> JavaScript
+      </span>
+      <span className="flex items-center gap-2 bg-blue-500 text-white px-3 py-1 rounded-lg hover:shadow-[0_0_15px_rgba(0,170,255,1)] transition-all duration-300">
+        <FaReact className="text-xl" /> React
+      </span>
+      <span className="flex items-center gap-2 bg-black text-white px-3 py-1 rounded-lg hover:shadow-[0_0_15px_rgba(0,0,0,1)] transition-all duration-300">
+        <TbBrandNextjs className="text-xl" /> Next.js
+      </span>
+      <span className="flex items-center gap-2 bg-purple-600 text-white px-3 py-1 rounded-lg hover:shadow-[0_0_15px_rgba(128,0,128,1)] transition-all duration-300">
+        <FaBootstrap className="text-xl" /> Bootstrap
+      </span>
+      <span className="flex items-center gap-2 bg-teal-500 text-white px-3 py-1 rounded-lg hover:shadow-[0_0_15px_rgba(50,205,50,1)] transition-all duration-300">
+        <TbBrandTailwind className="text-xl" /> Tailwind
+      </span>
+    </div>
+  </div>
+</section>
 
         <section id="projects" className="bg-gray-850 p-8 rounded-lg shadow-lg border border-gray-700 mt-12">
           <h2 className="text-xl font-semibold text-blue-400 mb-4">Projects</h2>
