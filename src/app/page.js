@@ -31,21 +31,6 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="w-full flex overflow-x-hidden gap-4 animate-train p-6">
-          <div className="bg-gray-700 min-w-[10rem] h-24 rounded-lg flex items-center justify-center text-white font-medium shadow-md">
-            Wagon 1
-          </div>
-          <div className="bg-gray-600 min-w-[10rem] h-24 rounded-lg flex items-center justify-center text-white font-medium shadow-md">
-            Wagon 2
-          </div>
-          <div className="bg-gray-500 min-w-[10rem] h-24 rounded-lg flex items-center justify-center text-white font-medium shadow-md">
-            Wagon 3
-          </div>
-          <div className="bg-gray-500 min-w-[10rem] h-24 rounded-lg flex items-center justify-center text-white font-medium shadow-md">
-            Wagon 4
-          </div>
-        </div>
-
         <section id="about" className="bg-gray-850 p-8 rounded-lg shadow-lg border border-gray-700 mt-12 backdrop-blur-md bg-opacity-30">
           <h2 className="text-xl font-semibold text-blue-400 mb-4">About Me</h2>
           <p className="text-gray-300">I am a dedicated developer specializing in modern web technologies, focusing on user-friendly designs and scalable solutions. With a strong foundation in front-end and back-end development, I love bringing ideas to life through code.</p>
