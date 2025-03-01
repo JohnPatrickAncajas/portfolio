@@ -1,4 +1,4 @@
-import { FaHtml5, FaCss3Alt, FaJs, FaReact, FaBootstrap, FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
+import { FaHtml5, FaCss3Alt, FaJs, FaReact, FaBootstrap, FaGithub, FaTwitter, FaLinkedin} from "react-icons/fa";
 import { TbBrandNextjs, TbBrandTailwind } from "react-icons/tb";
 
 export default function Home() {
@@ -78,22 +78,22 @@ export default function Home() {
         </section>
 
         <section id="contact" className="bg-gray-850 p-8 rounded-lg shadow-lg border border-gray-700 mt-12">
-          <h2 className="text-xl font-semibold text-blue-400 mb-4">Contact</h2>
-          <p className="text-gray-300 mb-4">Interested in working together? Reach out!</p>
-          <form className="flex flex-col gap-4">
-            <input type="text" placeholder="Your Name" className="p-3 rounded bg-gray-800 border border-gray-700 focus:border-blue-400" />
-            <input type="email" placeholder="Your Email" className="p-3 rounded bg-gray-800 border border-gray-700 focus:border-blue-400" />
-            <textarea placeholder="Your Message" rows="4" className="p-3 rounded bg-gray-800 border border-gray-700 focus:border-blue-400"></textarea>
-            <button type="submit" className="p-3 bg-blue-500 rounded-lg text-white hover:bg-blue-600">Send Message</button>
-          </form>
-        </section>
+  <h2 className="text-xl font-semibold text-blue-400 mb-4">Contact</h2>
+  <p className="text-gray-300 mb-4">Interested in working together? Connect with me on my socials!</p>
+  <div className="flex justify-center gap-4">
+    <a href="https://github.com/JohnPatrickAncajas" className="hover:text-blue-400 transition-colors"><FaGithub size={24} /></a>
+    <a href="https://www.linkedin.com/in/john-patrick-ancajas-2b808828a" className="hover:text-blue-400 transition-colors"><FaLinkedin size={24} /></a>
+    <a href="https://x.com/_PatrickAncajas" className="hover:text-blue-400 transition-colors"><FaTwitter size={24} /></a>
+  </div>
+</section>
+
       </main>
 
       <footer className="bg-gray-950 text-gray-400 text-center p-6 border-t border-gray-700">
         <div className="flex justify-center gap-4">
           <a href="https://github.com/JohnPatrickAncajas" className="hover:text-blue-400 transition-colors"><FaGithub size={24} /></a>
           <a href="https://www.linkedin.com/in/john-patrick-ancajas-2b808828a" className="hover:text-blue-400 transition-colors"><FaLinkedin size={24} /></a>
-          <a href="mailto:your.email@example.com" className="hover:text-blue-400 transition-colors"><FaEnvelope size={24} /></a>
+          <a href="mailto:your.email@example.com" className="hover:text-blue-400 transition-colors"><FaTwitter size={24} /></a>
         </div>
         <p className="mt-2">© 2025 Patrick Ancajas. All rights reserved.</p>
       </footer>
