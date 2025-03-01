@@ -1,6 +1,7 @@
 import { FaHtml5, FaCss3Alt, FaJs, FaReact, FaBootstrap, FaGithub, FaTwitter, FaLinkedin, FaFacebook} from "react-icons/fa";
 import { TbBrandNextjs, TbBrandTailwind } from "react-icons/tb";
 import Image from "next/image";
+import Projects from "../../components/Projects";
 
 export default function Home() {
   return (
@@ -67,23 +68,7 @@ export default function Home() {
           </div>
         </section>
 
-        <section id="projects" className="bg-gray-850 p-8 rounded-lg shadow-lg border border-gray-700 mt-12 backdrop-blur-md bg-opacity-30">
-          <h2 className="text-xl font-semibold text-blue-400 mb-4">Projects</h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            <div className="bg-gray-800 p-6 rounded-lg shadow-lg border border-gray-700">
-              <h3 className="text-lg font-semibold text-blue-400">Project 1</h3>
-              <p className="text-gray-300 mt-2">Consectetur proident exercitation non ipsum.</p>
-            </div>
-            <div className="bg-gray-800 p-6 rounded-lg shadow-lg border border-gray-700">
-              <h3 className="text-lg font-semibold text-blue-400">Project 2</h3>
-              <p className="text-gray-300 mt-2">Incididunt esse et ullamco occaecat quis ullamco cupidatat.</p>
-            </div>
-            <div className="bg-gray-800 p-6 rounded-lg shadow-lg border border-gray-700">
-              <h3 className="text-lg font-semibold text-blue-400">Project 3</h3>
-              <p className="text-gray-300 mt-2">Commodo labore Lorem laborum fugiat nostrud ex veniam nisi ut.</p>
-            </div>
-          </div>
-        </section>
+        <Projects />
 
         <section id="contact" className="bg-gray-850 p-10 rounded-lg shadow-lg border border-gray-700 mt-12 backdrop-blur-md bg-opacity-30 text-center">
           <h2 className="text-2xl font-bold text-blue-400 mb-6">Contact</h2>
