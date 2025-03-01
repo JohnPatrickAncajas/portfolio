@@ -1,4 +1,4 @@
-import { FaHtml5, FaCss3Alt, FaJs, FaReact, FaBootstrap, FaGithub, FaTwitter, FaLinkedin} from "react-icons/fa";
+import { FaHtml5, FaCss3Alt, FaJs, FaReact, FaBootstrap, FaGithub, FaTwitter, FaLinkedin, FaFacebook} from "react-icons/fa";
 import { TbBrandNextjs, TbBrandTailwind } from "react-icons/tb";
 import Image from "next/image";
 
@@ -79,25 +79,33 @@ export default function Home() {
           </div>
         </section>
 
-        <section id="contact" className="bg-gray-850 p-8 rounded-lg shadow-lg border border-gray-700 mt-12 backdrop-blur-md bg-opacity-30">
-          <h2 className="text-xl font-semibold text-blue-400 mb-4">Contact</h2>
-          <p className="text-gray-300 mb-4">Interested in working together? Connect with me on my socials!</p>
-          <div className="flex justify-center gap-4">
-            <a href="https://github.com/JohnPatrickAncajas" className="hover:text-blue-400 transition-colors"><FaGithub size={24} /></a>
-            <a href="https://www.linkedin.com/in/john-patrick-ancajas-2b808828a" className="hover:text-blue-400 transition-colors"><FaLinkedin size={24} /></a>
-            <a href="https://x.com/_PatrickAncajas" className="hover:text-blue-400 transition-colors"><FaTwitter size={24} /></a>
+        <section id="contact" className="bg-gray-850 p-10 rounded-lg shadow-lg border border-gray-700 mt-12 backdrop-blur-md bg-opacity-30 text-center">
+          <h2 className="text-2xl font-bold text-blue-400 mb-6">Contact</h2>
+          <p className="text-gray-300 text-lg mb-6">Interested in working together? Connect with me on my socials!</p>
+          
+          <div className="flex justify-center gap-6">
+            <a href="https://github.com/JohnPatrickAncajas" 
+              className="p-2 rounded-full transition-all duration-300 hover:text-blue-400 hover:bg-gray-700/50">
+              <FaGithub size={28} />
+            </a>
+            <a href="https://www.linkedin.com/in/john-patrick-ancajas-2b808828a" 
+              className="p-2 rounded-full transition-all duration-300 hover:text-blue-400 hover:bg-gray-700/50">
+              <FaLinkedin size={28} />
+            </a>
+            <a href="https://x.com/_PatrickAncajas" 
+              className="p-2 rounded-full transition-all duration-300 hover:text-blue-400 hover:bg-gray-700/50">
+              <FaTwitter size={28} />
+            </a>
+            <a href="https://www.facebook.com/profile.php?id=100082552025420&mibextid=2JQ9oc" 
+              className="p-2 rounded-full transition-all duration-300 hover:text-blue-400 hover:bg-gray-700/50">
+              <FaFacebook size={28} />
+            </a>
           </div>
         </section>
-
       </main>
 
       <footer className="bg-gray-950 text-gray-400 text-center p-6 border-t border-gray-700">
-        <div className="flex justify-center gap-4">
-          <a href="https://github.com/JohnPatrickAncajas" className="hover:text-blue-400 transition-colors"><FaGithub size={24} /></a>
-          <a href="https://www.linkedin.com/in/john-patrick-ancajas-2b808828a" className="hover:text-blue-400 transition-colors"><FaLinkedin size={24} /></a>
-          <a href="mailto:your.email@example.com" className="hover:text-blue-400 transition-colors"><FaTwitter size={24} /></a>
-        </div>
-        <p className="mt-2">© 2025 Patrick Ancajas. All rights reserved.</p>
+        <p>© 2025 Patrick Ancajas. All rights reserved.</p>
       </footer>
     </div>
   );
