@@ -8,9 +8,15 @@ export default function Home() {
       <nav className="w-full bg-gray-950 bg-opacity-50 backdrop-blur-md z-10 p-4 border-b border-gray-700 fixed top-0 left-0">
         <div className="container mx-auto flex justify-between items-center">
           <ul className="flex gap-6 items-end ml-auto text-gray-300">
-            <li className="hover:text-blue-400 transition-all cursor-pointer">About Me</li>
-            <li className="hover:text-blue-400 transition-all cursor-pointer">Projects</li>
-            <li className="hover:text-blue-400 transition-all cursor-pointer">Contact</li>
+            <li>
+              <a href="#about" className="hover:text-blue-400 transition-all cursor-pointer">About Me</a>
+            </li>
+            <li>
+              <a href="#projects" className="hover:text-blue-400 transition-all cursor-pointer">Projects</a>
+            </li>
+            <li>
+              <a href="#contact" className="hover:text-blue-400 transition-all cursor-pointer">Contact</a>
+            </li>
           </ul>
         </div>
       </nav>
@@ -25,7 +31,7 @@ export default function Home() {
             className="rounded-lg object-cover shadow-md ring-4 ring-blue-500/30 transition-transform duration-300 hover:scale-105"
           />
           <div className="mt-6 md:mt-0 md:ml-10 flex flex-col items-center md:items-start text-center md:text-left">
-            <h1 className="text-5xl font-bold text-blue-400">Hey, I&apos;m Patrick!</h1>
+            <h1 className="text-5xl font-bold text-blue-400 drop-shadow-lg animate-fadeIn"> Hey, I&apos;m Patrick!</h1>
             <p className="text-gray-300 mt-4 text-xl">Aspiring Full-stack developer passionate about building friendly and efficient web applications.</p>
           </div>
         </div>
