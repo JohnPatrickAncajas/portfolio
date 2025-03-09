@@ -1,7 +1,7 @@
 import { FaHtml5, FaCss3Alt, FaJs, FaReact, FaBootstrap, FaGithub, FaTwitter, FaLinkedin, FaFacebook} from "react-icons/fa";
 import { TbBrandNextjs, TbBrandTailwind } from "react-icons/tb";
 import Image from "next/image";
-import Projects from "../../components/Projects";
+import Projects from "./components/Projects";
 
 export default function Home() {
   return (

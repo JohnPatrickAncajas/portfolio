@@ -13,9 +13,9 @@ const projects = [
 
 export default function Projects() {
   return (
-    <section id="projects" className="bg-gray-800 p-8 rounded-lg shadow-lg border border-gray-700 mt-12 backdrop-blur-md bg-opacity-30">
+    <section id="projects" className="bg-gray-850 p-8 rounded-lg shadow-lg border border-gray-700 mt-12 backdrop-blur-md bg-opacity-30">
       <h2 className="text-xl font-semibold text-blue-400 mb-4">Projects</h2>
-      <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 gap-6">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
         {projects.map((project) => (
           <div 
             key={project.id} 
