@@ -3,12 +3,12 @@
 import Image from "next/image";
 
 const projects = [
-  { id: 1, title: "Dialecto", description: "Short summary of project one.", image: "/images/project1.png" },
-  { id: 2, title: "FlapItLawin", description: "Short summary of project two.", image: "/images/project2.png" },
-  { id: 3, title: "QuizMe", description: "Short summary of project three.", image: "/images/project3.png" },
-  { id: 4, title: "C Lessons", description: "Short summary of project four.", image: "/images/project4.png" },
-  { id: 5, title: "Memo", description: "Short summary of project five.", image: "/images/project5.png" },
-  { id: 6, title: "Academicart", description: "Short summary of project six.", image: "/images/project6.png" }
+  { id: 1, title: "Dialecto", description: "Short summary of project one. Short summary of project one. Short summary of project one. Short summary of project one. Short summary of project one.", image: "/images/project1.png" },
+  { id: 2, title: "FlapItLawin", description: "Short summary of project two. Short summary of project two. Short summary of project two. Short summary of project two. Short summary of project two.", image: "/images/project2.png" },
+  { id: 3, title: "QuizMe", description: "Short summary of project three. Short summary of project three. Short summary of project three. Short summary of project three. Short summary of project three.", image: "/images/project3.png" },
+  { id: 4, title: "C Lessons", description: "Short summary of project four. Short summary of project four. Short summary of project four. Short summary of project four. Short summary of project four.", image: "/images/project4.png" },
+  { id: 5, title: "Memo", description: "Short summary of project five. Short summary of project five. Short summary of project five. Short summary of project five. Short summary of project five.", image: "/images/project5.png" },
+  { id: 6, title: "Academicart", description: "Short summary of project six. Short summary of project six. Short summary of project six. Short summary of project six. Short summary of project six.", image: "/images/project6.png" }
 ];
 
 export default function Projects() {

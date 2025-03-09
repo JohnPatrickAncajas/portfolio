@@ -43,25 +43,25 @@ export default function Home() {
           <div className="mt-6">
             <h3 className="text-lg font-semibold text-blue-400 mb-2">Tech Stack</h3>
             <div className="flex flex-wrap gap-3">
-              <span className="flex items-center gap-2 bg-orange-600 text-white px-3 py-1 rounded-lg hover:shadow-[0_0_15px_rgba(255,165,0,1)] transition-all duration-300">
+              <span className="flex items-center gap-2 bg-orange-600 text-white px-3 py-1 rounded-lg hover:shadow-[0_0_15px_rgba(255,165,0,1)] transition-all duration-300 cursor-default">
                 <FaHtml5 className="text-xl" /> HTML
               </span>
-              <span className="flex items-center gap-2 bg-blue-600 text-white px-3 py-1 rounded-lg hover:shadow-[0_0_15px_rgba(0,119,255,1)] transition-all duration-300">
+              <span className="flex items-center gap-2 bg-blue-600 text-white px-3 py-1 rounded-lg hover:shadow-[0_0_15px_rgba(0,119,255,1)] transition-all duration-300 cursor-default">
                 <FaCss3Alt className="text-xl" /> CSS
               </span>
-              <span className="flex items-center gap-2 bg-yellow-500 text-black px-3 py-1 rounded-lg hover:shadow-[0_0_15px_rgba(255,223,0,1)] transition-all duration-300">
+              <span className="flex items-center gap-2 bg-yellow-500 text-black px-3 py-1 rounded-lg hover:shadow-[0_0_15px_rgba(255,223,0,1)] transition-all duration-300 cursor-default">
                 <FaJs className="text-xl" /> JavaScript
               </span>
-              <span className="flex items-center gap-2 bg-blue-500 text-white px-3 py-1 rounded-lg hover:shadow-[0_0_15px_rgba(0,170,255,1)] transition-all duration-300">
+              <span className="flex items-center gap-2 bg-blue-500 text-white px-3 py-1 rounded-lg hover:shadow-[0_0_15px_rgba(0,170,255,1)] transition-all duration-300 cursor-default">
                 <FaReact className="text-xl" /> React
               </span>
-              <span className="flex items-center gap-2 bg-black text-white px-3 py-1 rounded-lg hover:shadow-[0_0_15px_rgba(0,0,0,1)] transition-all duration-300">
+              <span className="flex items-center gap-2 bg-black text-white px-3 py-1 rounded-lg hover:shadow-[0_0_15px_rgba(0,0,0,1)] transition-all duration-300 cursor-default">
                 <TbBrandNextjs className="text-xl" /> Next.js
               </span>
-              <span className="flex items-center gap-2 bg-purple-600 text-white px-3 py-1 rounded-lg hover:shadow-[0_0_15px_rgba(128,0,128,1)] transition-all duration-300">
+              <span className="flex items-center gap-2 bg-purple-600 text-white px-3 py-1 rounded-lg hover:shadow-[0_0_15px_rgba(128,0,128,1)] transition-all duration-300 cursor-default">
                 <FaBootstrap className="text-xl" /> Bootstrap
               </span>
-              <span className="flex items-center gap-2 bg-teal-500 text-white px-3 py-1 rounded-lg hover:shadow-[0_0_15px_rgba(50,205,50,1)] transition-all duration-300">
+              <span className="flex items-center gap-2 bg-teal-500 text-white px-3 py-1 rounded-lg hover:shadow-[0_0_15px_rgba(50,205,50,1)] transition-all duration-300 cursor-default">
                 <TbBrandTailwind className="text-xl" /> Tailwind
               </span>
             </div>
